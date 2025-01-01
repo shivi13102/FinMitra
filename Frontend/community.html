@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community - FinMitra</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Full-screen image styling */
+        .hero-image {
+            position: relative;
+            width: 100%;
+            height: 90vh; /* Full screen height */
+            background-image: url('Images/CommunityPageImage.png'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+        }
+
+        .hero-text h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .hero-text p {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-primary text-white">
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <a class="navbar-brand" href="home.html">FinMitra</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="investment.html">Investment</a></li>
+                    <li class="nav-item"><a class="nav-link" href="budgeting.html">Budgeting</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="community.html">Community</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Full-screen image with text on top -->
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>Join Our Community</h1>
+            <p>Connect, learn, and grow with fellow financial enthusiasts.</p>
+        </div>
+    </div>
+
+    <main class="container my-5">
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action">Discussion Forums</a>
+            <a href="#" class="list-group-item list-group-item-action">Mentorship Programs</a>
+            <a href="#" class="list-group-item list-group-item-action">Exclusive Webinars</a>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Financial Advisor. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

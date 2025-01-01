@@ -1,0 +1,99 @@
+.navbar-brand {
+    font-size: 2.5rem; /* Increase font size */
+    font-weight: bold; /* Make the text bold */
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.5rem;
+    color: #ffffff !important; /* Bright white color */
+    font-weight: normal;        /* Default font weight */
+    text-decoration: none;      /* No underline by default */
+    text-underline-offset: 0;   /* Ensure no space between text and underline */
+    transition: text-decoration-color 0.3s ease, text-underline-offset 0.3s ease; /* Smooth underline effect */
+}
+
+.navbar-nav .nav-link:hover {
+    font-weight: bold;         /* Bold on hover */
+    text-decoration: underline; /* Underline on hover */
+    text-decoration-color: #ffffff; /* White color for the underline */
+    text-underline-offset: 3px; /* Adjust the offset for a nice hover effect */
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;         /* Bold for active menu */
+    text-decoration: underline; /* Underline for active menu */
+    text-decoration-color: #ffffff; /* White color for the underline */
+    text-underline-offset: 3px; /* Same offset for consistency */
+}
+
+/* Home Page */
+.hero-image {
+    background-image: url('Images/HomePageImage.png'); /* Replace with the correct path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text h1,
+.hero-text p {
+    color: rgb(255, 255, 255); /* Set text color to orange */
+}
+
+.hero-text h1 {
+    font-size: 3.5rem; /* Increase font size of the main heading */
+    font-weight: bold;
+}
+
+.hero-text p {
+    font-size: 1.5rem; /* Adjust size of the subheading */
+    font-weight: normal;
+}
+
+/* Section with Left Image and About Us */
+section {
+    padding: 50px 0; /* Padding for the section */
+}
+
+section .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: rounded corners */
+}
+
+section .col-md-4 {
+    text-align: center;
+}
+
+section .col-md-8 {
+    text-align: left;
+}
+
+section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+section p {
+    font-size: 1.1rem;
+    color: #555;
+    text-align: justify;
+}
+
+.square-image {
+    width: 500px; /* Define the width */
+    height: 250px; /* Define the height to match the width */
+    object-fit: cover; /* Ensures the image fills the square without distortion */
+    border-radius: 10px; /* Optional: rounded corners for the square */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
+}
+
+/* Education page */
